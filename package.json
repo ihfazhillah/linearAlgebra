@@ -1,0 +1,22 @@
+{
+  "name": "linearalgebra",
+  "version": "1.0.0",
+  "description": "coding about linear algebra through this course : https://classroom.udacity.com/courses/ud953",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linear",
+    "algebra",
+    "math",
+    "cs",
+    "computer",
+    "sciene"
+  ],
+  "author": "ihfazhillah",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
