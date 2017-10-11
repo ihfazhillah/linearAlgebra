@@ -33,5 +33,18 @@ Vector.prototype.timesScalar = function(other) {
   return new Vector(_.map(this.coordinate, (me) => (me*other)))
 }
 
+Vector.prototype.magnitude = function() {
+  return Math.sqrt(_.sum(_.map(this.coordinate, (x) => Math.pow(x, 2))))
+}
+
+Vector.prototype.normalize = function() {
+  let magnitude = this.magnitude()
+
+  if (magnitude === 0){
+    throw "denominator is zero"
+  }
+  return this.timesScalar(1./magnitude)
+}
+
 
 module.exports = Vector
