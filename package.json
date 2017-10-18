@@ -17,6 +17,7 @@
   "author": "ihfazhillah",
   "license": "MIT",
   "dependencies": {
+    "decimal.js": "^7.3.0",
     "lodash": "^4.17.4"
   }
 }
